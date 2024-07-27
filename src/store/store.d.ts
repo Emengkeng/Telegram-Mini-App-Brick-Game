@@ -1,6 +1,7 @@
 // GamePage.d.ts
+import { Store } from '@reduxjs/toolkit';
+
 declare module '@/store/index.jsx' {
-    const store: React.ComponentType;
+    const store: Store;
     export default store;
 }
-  
