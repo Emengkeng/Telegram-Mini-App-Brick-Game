@@ -5,6 +5,9 @@ import { InitDataPage } from '@/pages/InitDataPage/InitDataPage';
 import { LaunchParamsPage } from '@/pages/LaunchParamsPage/LaunchParamsPage.tsx';
 import { ThemeParamsPage } from '@/pages/ThemeParamsPage/ThemeParamsPage.tsx';
 import { TONConnectPage } from '@/pages/TONConnectPage/TONConnectPage';
+//import { GamePage } from '../pages/GamePage/GamePage';
+
+import GamePage from '@/pages/GamePage/GamePage.jsx'
 
 interface Route {
   path: string;
@@ -18,6 +21,7 @@ export const routes: Route[] = [
   { path: '/init-data', Component: InitDataPage, title: 'Init Data' },
   { path: '/theme-params', Component: ThemeParamsPage, title: 'Theme Params' },
   { path: '/launch-params', Component: LaunchParamsPage, title: 'Launch Params' },
+  { path: '/game-page', Component: GamePage, title: 'Play games' },
   {
     path: '/ton-connect',
     Component: TONConnectPage,
@@ -41,4 +45,5 @@ export const routes: Route[] = [
       </svg>
     ),
   },
+  
 ];

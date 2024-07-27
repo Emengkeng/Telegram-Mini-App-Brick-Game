@@ -31,8 +31,12 @@ export const IndexPage: FC = () => {
         <Link to='/launch-params'>
           <Cell subtitle='Platform identifier, Mini Apps version, etc.'>Launch Parameters</Cell>
         </Link>
+        {/*}
         <Link to='/theme-params'>
           <Cell subtitle='Telegram application palette information'>Theme Parameters</Cell>
+        </Link> */}
+        <Link to='/game-page'>
+          <Cell subtitle='Play awesome Retro brick games'>Play Games</Cell>
         </Link>
       </Section>
     </List>
