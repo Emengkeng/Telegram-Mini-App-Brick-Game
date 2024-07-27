@@ -182,7 +182,6 @@ static files:
 ```bash
 npm run build
 ```
-d
 
 Then, run the deployment process, using the `deploy` script:
 
