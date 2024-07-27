@@ -1,3 +1,4 @@
+import { combineReducers } from '@reduxjs/toolkit';
 import levels from './levelsSlice'
 import speed from './speedSlice'
 import music from './musicSlice'
@@ -12,7 +13,7 @@ import breakout from './breakoutSlice'
 import racing from './racingSlice'
 import tank from './tankSlice'
 
-export default {
+const rootReducer = combineReducers({
   levels,
   speed,
   music,
@@ -26,4 +27,6 @@ export default {
   breakout,
   racing,
   tank
-}
+})
+
+export default rootReducer;

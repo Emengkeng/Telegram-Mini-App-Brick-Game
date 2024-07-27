@@ -18,7 +18,7 @@ import {
   Routes,
 } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from '@/store/index.jsx'; // Adjust the path to your store file
+import store from '@/store'; // Adjust the path to your store file
 
 import { routes } from '@/navigation/routes.tsx';
 
